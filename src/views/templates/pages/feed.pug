@@ -1,0 +1,39 @@
+.feed
+
+	.feed__main
+		.story
+			.story__item(
+				ng-style="{'background-image':'url('+ story.image +')'}"
+				ng-repeat="story in feed.featured")
+
+				.meta
+					h2.meta__title {{story.title}}
+					.meta__author
+						img.meta__avatar(ng-src="{{story.author.avatar}}")
+						p.meta__author-attr By {{story.author.name}}
+						p.meta__author-attr {{story.author.tagline}}
+
+					a.meta__share(ng-href="{{story.href}}")
+						.meta__share-btn
+							i.fa.fa-fw.fa-share
+						.meta__share-btn-label Share
+
+
+	.feed__right-rail
+			img.rail__syndication(src="/assets/images/dunder_mifflin.jpg")
+
+			h3.rail__headline
+				| Trending
+				.rail__headline--expanded-label on Area17.com
+
+			.rail__container(ng-repeat="story in feed.trending")
+
+					.trending
+						.trending__left
+								img.trending__img(ng-src="{{story.image}}")
+								img.trending__avatar(ng-src="{{story.author.avatar}}")
+						.trending__right
+								h4.trending__title {{story.title}}
+								.trending__meta
+									p.trending__author By {{story.author.name}}
+									p.trending__tagline {{story.author.tagline}}

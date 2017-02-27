@@ -1,0 +1,44 @@
+@import 'reset-css/reset.css';
+@import 'config';
+@import 'typography';
+@import 'feed';
+@import 'rail';
+@import 'accordion';
+
+.nav {
+    background: $darkestGray;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    z-index: 10;
+}
+
+.nav__link {
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.nav__link--active {
+    background-color: $darkGray;
+    color: $darkestGray;
+}
+
+.container {
+  margin: auto;
+  max-width: 1200px;
+  padding: 20px;
+  transform: translateY(60px);
+}
+
+pre {
+  background-color: #fffccc;
+  margin: 10px;
+  padding: 10px;
+  color: green;
+}

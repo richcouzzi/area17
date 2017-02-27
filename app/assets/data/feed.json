@@ -1,0 +1,81 @@
+{
+	"feed": {
+		"featured": [{
+				"title": "Find the perfect dress for special occasions",
+				"image": "/assets/images/1.jpg",
+				"href": "http://area17.com",
+				"author": {
+					"name": "Michael Scott",
+					"avatar": "/assets/images/avatar_1.jpg",
+					"tagline": "Regional Co-Manager"
+				}
+			}, {
+				"title": "DIY live edge coffee table",
+				"image": "/assets/images/2.jpg",
+				"href": "http://area17.com",
+				"author": {
+					"name": "Michael Scott",
+					"avatar": "/assets/images/avatar_1.jpg",
+					"tagline": "Regional Co-Manager"
+				}
+			}, {
+				"title": "Attracting butterflies to your garden",
+				"image": "/assets/images/3.jpg",
+				"href": "http://area17.com",
+				"author": {
+					"name": "Michael Scott",
+					"avatar": "/assets/images/avatar_1.jpg",
+					"tagline": "Regional Co-Manager"
+				}
+			}, {
+				"title": "The absolute beginner's guide to running",
+				"image": "/assets/images/4.jpg",
+				"href": "http://area17.com",
+				"author": {
+					"name": "Michael Scott",
+					"avatar": "/assets/images/avatar_1.jpg",
+					"tagline": "Regional Co-Manager"
+				}
+			}, {
+				"title": "Italian sausage and bell pepper pizza",
+				"image": "/assets/images/5.jpg",
+				"href": "http://area17.com",
+				"author": {
+					"name": "Michael Scott",
+					"avatar": "/assets/images/avatar_1.jpg",
+					"tagline": "Regional Co-Manager"
+				}
+			}
+
+
+		],
+		"trending": [{
+			"title": "How to pretend like you know what's going on",
+			"image": "/assets/images/5.jpg",
+			"href": "http://area17.com",
+			"author": {
+				"name": "Michael Scott",
+				"avatar": "/assets/images/avatar_1.jpg",
+				"tagline": "Regional Co-Manager"
+			}
+		}, {
+			"title": "How to use AOL",
+			"image": "/assets/images/4.jpg",
+			"href": "http://area17.com",
+			"author": {
+				"name": "Michael Scott",
+				"avatar": "/assets/images/avatar_1.jpg",
+				"tagline": "Regional Co-Manager"
+			}
+		}, {
+			"title": "How to pay your taxes, I think",
+			"image": "/assets/images/3.jpg",
+			"href": "http://area17.com",
+			"author": {
+				"name": "Michael Scott",
+				"avatar": "/assets/images/avatar_1.jpg",
+				"tagline": "Regional Co-Manager"
+			}
+		}]
+	}
+}

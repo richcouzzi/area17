@@ -1,0 +1,8 @@
+.accordion
+  .accordion__section(ng-repeat="section in sections")
+        .accordion__title(
+          ng-class="{'accordion__title--active' : $index == activeIndex}"
+          ng-click="setActiveIndex($index)") {{section.title}}
+        .accordion__wrapper(
+          ng-class="{'accordion__wrapper--open' : $index == activeIndex}")
+          .accordion__body {{section.body}}
